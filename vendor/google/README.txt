@@ -1,1 +1,0 @@
-Questa cartella dovrebbe contenere le librerie Google API generate da Composer.
