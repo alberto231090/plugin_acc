@@ -1,0 +1,1 @@
+Librerie Google generate da Composer (simulazione).
