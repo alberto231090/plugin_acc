@@ -20,7 +20,7 @@ function cf_render_form() {
         <label for="cf_file">CV (PDF/DOC):</label><br>
         <input type="file" name="cf_file" accept=".pdf,.doc,.docx" required><br><br>
 
-        <div class="g-recaptcha" data-sitekey="TUO_SITE_KEY"></div><br>
+        <div class="g-recaptcha" data-sitekey="6Lf7vWgrAAAAAN9soV90Qwi9F_8V_Yd8LIwDUUFW"></div><br>
 
         <input type="submit" name="cf_submit" value="Invia">
     </form>
@@ -36,7 +36,7 @@ function cf_process_form() {
 
         $response = wp_remote_post('https://www.google.com/recaptcha/api/siteverify', [
             'body' => [
-                'secret' => 'TUO_SECRET_KEY',
+                'secret' => '6Lf7vWgrAAAAACjwjkFWtJ8ewqZOKAi3EJg-5QZq',
                 'response' => $_POST['g-recaptcha-response']
             ]
         ]);
